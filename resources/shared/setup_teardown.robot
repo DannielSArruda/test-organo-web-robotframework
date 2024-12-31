@@ -3,7 +3,9 @@ Resource    ../main.robot
 
 *** Keywords ***
 I access Organo
-    Open Browser    url=http://localhost:3000/    browser=Chrome
+    ${valuesetname}=    Acquire Value Set
+    ${BROWSER}=        Get Value From Set    browser
+    Open Browser    url=http://localhost:3000/     browser=${BROWSER}
 
 Close the browser
     Capture Page Screenshot

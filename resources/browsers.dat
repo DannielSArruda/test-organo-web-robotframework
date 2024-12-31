@@ -1,0 +1,11 @@
+[browser1]
+tags=browser1
+browser=Chrome
+
+[browser2]
+tags=browser2
+browser=Firefox
+
+[browser3]
+tags=browser3
+browser=Edge

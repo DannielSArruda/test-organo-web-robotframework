@@ -6,3 +6,7 @@ __pycache__/
 .vscode/
 .idea/
 organo/node_modules/*
+organo/package-lock.json
+logs/*
+.gitignore
+.pabotsuitenames
